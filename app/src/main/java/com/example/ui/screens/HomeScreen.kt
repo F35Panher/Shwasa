@@ -130,8 +130,7 @@ fun HomeScreen(
                         )
                     }
                     Surface(
-                        shape = RoundedCornerShape(18.dp),
-                        color = Color.White,
+                        shape = RoundedCornerShape(16.dp),
                         tonalElevation = 2.dp,
                         shadowElevation = 2.dp,
                         modifier = Modifier.size(56.dp)
@@ -140,9 +139,7 @@ fun HomeScreen(
                             painter = painterResource(id = R.drawable.ic_shwasa_fg),
                             contentDescription = "Shwasa logo",
                             contentScale = ContentScale.Crop,
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .padding(4.dp)
+                            modifier = Modifier.fillMaxSize()
                         )
                     }
                 }
