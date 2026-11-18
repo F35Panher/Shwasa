@@ -1,0 +1,6 @@
+{
+  "name": "Shwasa",
+  "description": "Shwasa — Guided pranayama breathing exercises, timers, custom breathing patterns, and daily wellness progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
